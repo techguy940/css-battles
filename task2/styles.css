@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root
+{
+	--violet: rgb(200, 90, 200);
+	--violet-light: rgb(200, 155, 255);
+	--blue: rgb(235, 125, 135);
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body
+{
+	background: linear-gradient(41deg, rgba(245, 115, 120, 1) 0%, rgba(190, 190, 252, 1) 70%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.root
+{
+	margin-left: 15rem;
+	margin-right: 15rem;
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+	display: flex;
+	flex-direction: column;
+	padding: 5rem;
+	background-color: white;
+	color: white;
+	border-radius: 20px;
+	gap: 3rem;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+	position: relative;
+	width: 700px;
+}
+
+.image
+{
+	position: absolute;
+	border-radius: 50%;
+	padding: 0.25rem;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+	left: 38%;
+	top: -20%;
+}
+
+.image img
+{
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+}
+
+.title
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--violet);
+	margin-top: 1rem;
+}
+
+.title h1
+{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.stats
+{
+	display: flex;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	justify-content: space-evenly;
+}
+
+.stats section
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.stats section span
+{
+	font-size: 18px;
+	color: gray;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.socials
+{
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	margin-top: 1rem;
+}
+
+.socials img
+{
+	width: 40px;
+	height: 40px;
+	filter: drop-shadow(0px 0px 2px #000000);
+}
+
+.actions
+{
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+}
+
+.actions button
+{
+	border: none;
+	outline: none;
+	color: white;
+	border-radius: 50px;
+	text-transform: uppercase;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	width: 150px;
+	font-weight: 600;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.actions #message-btn
+{
+	background-color: var(--violet-light);
+}
+
+.actions #follow-btn
+{
+	background-color: var(--blue);
+}
