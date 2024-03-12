@@ -81,8 +81,6 @@ body
 .stats
 {
 	display: flex;
-	padding-left: 2rem;
-	padding-right: 2rem;
 	justify-content: space-evenly;
 }
 
