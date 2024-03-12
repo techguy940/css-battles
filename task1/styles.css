@@ -24,6 +24,8 @@ body
 .root
 {
 	margin: 5rem;
+	margin-right: 10rem;
+	margin-left: 10rem;
 	display: flex;
 	flex-direction: column;
 	padding: 3rem;
